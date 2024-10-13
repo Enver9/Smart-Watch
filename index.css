@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    font-family: Poppins, sans-serif;
+}
+
+section {
+    height: 120vh;
+    background-color: black;
+    padding-left: 10%;
+    box-shadow: inset -30px 180px 250px -180px rgba(158, 158, 158, 0.45);
+}
+
+nav {
+    padding-top: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mohid1 {
+    width: 27px;
+    height: 27px;
+}
+
+.mohid2 {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+}
+
+section nav a {
+    color: gray;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+
+.navrght {
+    width: 28px;
+    height: 28px;
+    padding-right: 25px;
+}
+
+.nav2 a {
+    padding-right: 2rem;
+}
+
+.chevron {
+    border-style: solid;
+    border-width: 0.20em 0.20em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    right: 30px;
+    bottom: 3px;
+    position: relative;
+    transform: rotate(135deg);
+    vertical-align: top;
+    width: 0.45em;
+    color: gray;
+}
+
+.middle {
+    padding-top: 200px;
+    width: 600px;
+    height: 450px;
+}
+
+.middle_watch {
+    width: 700px;
+    height: 800px;
+    position: relative;
+    bottom: 730px;
+    left: 1000px;
+}
+
+.middle p {
+    margin: 0px;
+    color: white;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.middle2 {
+    width: 600px;
+    height: 150px;
+}
+
+.middle2 span {
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+form {
+    padding-top: 30px;
+}
+
+form input {
+    text-shadow: black 0px 0px 2px;
+    font-size: 30px;
+    width: 600px;
+    height: 65px;
+    border-radius: 15px;
+}
+
+form button {
+    width: 130px;
+    height: 50px;
+    color: white;
+    font-size: 28px;
+    background-color: #3858D6;
+    border: 1px solid black;
+    border-radius: 9px;
+    position: relative;
+    right: 145px;
+    top: 0px;
+    text-shadow: black 0px 0px 15px;
+}
